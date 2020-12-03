@@ -63,5 +63,6 @@ int main() {
         default :
             std::cout << "This integer does" <<
             "not correspond to a month" << std::endl;
+            break;
     }
 }
